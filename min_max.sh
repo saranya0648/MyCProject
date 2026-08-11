@@ -8,8 +8,8 @@ echo "Enter third number"
 read num3
 echo "--------------------------------"
 
-max = $num1
-min = $num1
+max=$num1
+min=$num1
 if[ $num2 -gf $max ]; then
   max=$num2
 fi
