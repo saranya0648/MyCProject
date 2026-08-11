@@ -10,10 +10,10 @@ echo "--------------------------------"
 
 max=$num1
 min=$num1
-if[ $num2 -gf $max ]; then
+if[ $num2 -gt $max ]; then
   max=$num2
 fi
-if[ $num3 -gf $max ]; then
+if[ $num3 -gt $max ]; then
   max=$num3
 fi
 
